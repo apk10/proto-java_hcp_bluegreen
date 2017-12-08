@@ -668,7 +668,7 @@
 		</goals>
 		<configuration>
 		          <consoleCommand>rolling-update -a i335759trial -b helloworld -h hanatrial.ondemand.com -u i335759 -p Third@2017 -source ${project.build.directory}/${project.artifactId}.war</consoleCommand>
-                  <!--consoleCommand>rolling-update -a ${sap.cloud.account} -b ${sap.cloud.application} -h ${sap.cloud.host} -u ${sap.cloud.username} -p ${sap.cloud.password} -source ${project.build.directory}/${project.artifactId}.war</consoleCommand-->                 
+                  <!--consoleCommand>update -a ${sap.cloud.account} -b ${sap.cloud.application} -h ${sap.cloud.host} -u ${sap.cloud.username} -p ${sap.cloud.password} -source ${project.build.directory}/${project.artifactId}.war</consoleCommand-->                 
 		</configuration>
               </execution>
             </executions>
